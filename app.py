@@ -9,9 +9,18 @@ model = load_model("waste_classification_model.h5")
 
 # Class names
 classes = [
-    'metal', 'white-glass', 'brown-glass', 'paper', 'trash',
-    'cardboard', 'clothes', 'biological', 'shoes', 'plastic',
-    'battery', 'green-glass'
+    'battery',
+    'biological',
+    'brown-glass',
+    'cardboard',
+    'clothes',
+    'green-glass',
+    'metal',
+    'paper',
+    'plastic',
+    'shoes',
+    'trash',
+    'white-glass'
 ]
 
 st.title("♻️ Smart Waste Classification App")
