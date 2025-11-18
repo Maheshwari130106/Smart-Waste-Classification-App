@@ -1,5 +1,9 @@
 streamlit
 tensorflow==2.12.0
 numpy
-Pillow
+pillow
+opencv-python-headless
+scikit-learn
 matplotlib
+seaborn
+gdown
